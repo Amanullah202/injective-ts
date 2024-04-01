@@ -1287,8 +1287,7 @@ export default {
     ibc: {
       decimals: 6,
       isNative: true,
-      baseDenom:
-        'cw20:terra1nsuqsk6kh58ulczatwev87ttq2z6r3pusulg9r24mfj2fvtzd4uq3exn26',
+      baseDenom: 'cw20:terra1nsuqsk6kh58ulczatwev87ttq2z6r3pusulg9r24mfj2fvtzd4uq3exn26',
       path: 'transfer/channel-104',
       channelId: 'channel-104',
       hash: 'EBD5A24C554198EBAF44979C5B4D2C2D312E6EBAB71962C92F735499C7575839',
@@ -2831,6 +2830,19 @@ export default {
     logo: 'waifu-logo.png',
     coinGeckoId: '',
     tokenType: TokenType.TokenFactory,
+  },
+  DDL: {
+    name: 'Discordels Token',
+    logo: 'DDLlogo.png',
+    coinGeckoId: '',
+
+    tokenFactories: [
+      {
+        creator: 'inj1put8lfpkwm47tqcl9fgh8grz987mezvrx4arls',
+        symbol: 'DDL',
+        decimals: 6,
+      },
+    ],
   },
 
   APP: {
